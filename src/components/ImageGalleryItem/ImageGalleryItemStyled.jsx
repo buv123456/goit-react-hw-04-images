@@ -8,7 +8,10 @@ export const ItemStyled = styled.li`
 
 export const ImgItemStyled = styled.img`
   display: block;
-  max-width: 100%;
+  width: 100%;
+  height: 100%;
   object-fit: cover;
   object-position: center;
+  border: teal 3px solid;
+  border-radius: 15px;
 `;
